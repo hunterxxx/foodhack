@@ -1,0 +1,48 @@
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head></head>
+        <body>
+            <script src="dist/js/headtrackr.js"></script>
+            <canvas id="compare" style="display:none" height="240" width="320"></canvas>
+            <video id="vid" width="320" height="240" loop="" autoplay=""></video>
+
+<canvas id="overlay" height="240" width="320" style="position: absolute; top: 0px; z-index: 100001; display: block;"></canvas>
+
+<canvas id="debug" height="240" width="320" style="position: absolute; top: 0px; z-index: 100002; display: none;"></canvas>
+
+<p id="gUMMessage"></p>
+
+<p>
+
+    Status :
+
+    <span id="headtrackerMessage">
+
+    Tracking face
+
+    </span>
+
+</p>
+<p>
+
+    <input type="button" value="reinitiate facedetection" onclick="htracker.stop();htracker.start();"></input>
+
+<br></br>
+
+<br></br>
+
+<input type="checkbox" value="asdfasd" onclick="showProbabilityCanvas()"></input>
+
+                Show probability-map
+
+            </p>
+            <script>
+
+            // set up video and canvas elements needed …
+
+            </script>
+        </body>
+    </html>
+
